@@ -1,0 +1,60 @@
+version: "3.1"
+
+stories:
+
+- story: gender_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: start
+  - action: utter_start
+  - intent: affirm
+  - action: utter_age_ask
+  - intent: input_age
+  - action: utter_gender_ask
+  - intent: male
+  - action: utter_survey_done
+  - action: utter_goodbye
+
+  
+- story: gender_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: start
+  - action: utter_start
+  - intent: affirm
+  - action: utter_age_ask
+  - intent: input_age
+  - action: utter_gender_ask
+  - intent: female
+  - action: utter_survey_done
+  - action: utter_goodbye
+  
+- story: surevy_gender_male
+  steps:
+  - intent: start
+  - action: utter_start
+  - intent: affirm
+  - action: utter_age_ask
+  - intent: input_age
+  - action: utter_gender_ask
+  - intent: male
+  - action: utter_survey_done
+  - action: utter_goodbye
+
+- story: surevy_gender_female
+  steps:
+  - intent: start
+  - action: utter_start
+  - intent: affirm
+  - action: utter_age_ask
+  - intent: input_age
+  - action: utter_gender_ask
+  - intent: female
+  - action: utter_survey_done
+  - action: utter_goodbye
