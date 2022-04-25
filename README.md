@@ -8,7 +8,7 @@ Rasa is an open source machine learning framework for automated text and voice-b
 
 ## Structure
 
-![Structure]("structure.jpg")
+![Structure]("https://raw.githubusercontent.com/heyakshayhere/buddy_chatbot/main/structure.jpg")
 
 
 ## Run this project on your machine
