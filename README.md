@@ -6,7 +6,7 @@ Rasa is an open source machine learning framework for automated text and voice-b
 
 ![GIF](https://www.fastcapital360.com/wp-content/uploads/2021/03/graphic_01-2.gif)
 
-## Structure
+## Basic Structure of rasa v3.1
 
 ![Img](https://raw.githubusercontent.com/heyakshayhere/buddy_chatbot/main/structure.jpg)
 
